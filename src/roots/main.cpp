@@ -31,8 +31,7 @@ int main(int argc, char **argv)
     const char *method_names[] = {"Bisection", "Regula Falsi", "Newton-Raphson", "Secant"};
 
     std::cout << std::fixed << std::setprecision(10);
-    std::cout << "Testing all root-finding methods\n"
-              << std::endl;
+    std::cout << "Testing all root-finding methods\n" << std::endl;
 
     // Test poly1 with all methods
     std::cout << "=== poly1(x) = x^3 - x^2 + 2, bracket [-200, 300] ===" << std::endl;
